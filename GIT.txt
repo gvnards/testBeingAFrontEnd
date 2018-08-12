@@ -36,3 +36,4 @@ git fetch nama_remote >> meninjau revisi yg ada di remote
 git push nama_remote nama_branch >> simpan fitur di repo
 remote ke repo lokal (hanya yg status commit)
 cat nama_file >> check apakah ada conflict di file tersebut
+git clone url >> cloning dari url
