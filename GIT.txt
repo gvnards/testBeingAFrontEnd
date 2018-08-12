@@ -1,0 +1,38 @@
+git init >> membuat repositori(repo)
+git status >> check status git(internal)
+git add <nama_file/nama_folder> >> add file/folder ke repo
+git commit -m "pesan yg ingin disampaikan" >> upload repo
+ke git cloud
+git log >> check status git(update yg terjadi didalam repo)
+git log --oneline >> check status git(repo) lebih simple
+git log --author='nama_author' >> cari update berdasarkan
+nama author yg dicari
+git log --author='nama_author' --oneline >> cari update
+berdasarkan nama author yg dicari lebih simple
+git log nama_file >> lihat update berdasarkan file yg dicari
+git diff >> lihat semua revisi yg masih berstatus modified
+git checkout nama_file >> mengembalikan file seperti semula
+(masih posisi modified)
+git reset nama_file >> mengubah posisi (staged/commit)
+menjadi modified yg selanjutnya dapat dirubah kembali
+git checkout HEAD~3 nama_file >> mengembalikan file dari
+tiga commit sebelumnya
+git revert nomor_commit(ex: f1exx) -n >> mengembalikan
+semua file dari nomor_commit
+git branch nama_branch(bebas) >> membuat branch
+git checkout nama_branch >> pindah direktori dari master ke
+direktori branch
+ls >> list isi direktori
+git merge nama_branch >> menggabungkan cabang (harus pindah
+ke cabang master dulu)
+git remote add nama_remote url_yg_dituju >> menambah repo
+remote
+git remote rename nama_lama nama_baru >> rename remote
+git remote rm nama_remote >> delete remote
+git remove -v >> check repositori remote yg ada
+git pull nama_remote nama_branch >> copying data dari
+remote ke branch kita/branch yg dituju
+git fetch nama_remote >> meninjau revisi yg ada di remote
+git push nama_remote nama_branch >> simpan fitur di repo
+remote ke repo lokal (hanya yg status commit)
+cat nama_file >> check apakah ada conflict di file tersebut
